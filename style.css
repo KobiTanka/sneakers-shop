@@ -5,23 +5,20 @@ body {
 }
 
 ul {
- 
  list-style: none;
  margin: 0 0 0 150px;
- width: 100%;
  padding: 0;
  overflow: auto;
  background-color: black;
 }
 
 li {
- float: left;
+ float: right;
 }
 
-.logo img{
-position: absolute;
-margin-top: 15px;
-margin-left: 10px;
+img.logo {
+    display: block;
+    max-width: 100px;
 }
 
 li a {
@@ -34,9 +31,8 @@ li a {
 }
 
 li a:hover {
- background-color: white;
+ background-color: gray;
  transition: 0,5s;
- text-transform: uppercase;
 }
 
 * {box-sizing: border-box;}
