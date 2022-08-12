@@ -4,20 +4,34 @@ body {
  background-color: aliceblue;
 }
 
+.header {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+
 ul {
  list-style: none;
- margin: 0 0 0 150px;
  padding: 0;
  overflow: auto;
  background-color: black;
+ min-width: 696px;
+ padding-top: 20px;
 }
 
 li {
- float: right;
+    float: right;
+    display: inline;
+    margin-right: 50px;
 }
 
 img.logo {
-    display: block;
+    display: inline-block;
     max-width: 100px;
 }
 
