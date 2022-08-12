@@ -3,7 +3,10 @@ body {
  padding: 0;
  background-color: aliceblue;
 }
-
+.button {
+ background-color: black;
+ 
+}
 .header {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
@@ -12,8 +15,8 @@ body {
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
-	padding-top: 20px;
-	}
+	padding-top: 0;
+}
 
 ul {
  list-style: none;
@@ -22,6 +25,7 @@ ul {
  background-color: black;
  min-width: 696px;
  padding-top: 20px;
+ border-radius: 10px;
 }
 
 li {
@@ -46,7 +50,6 @@ li a {
 
 li a:hover {
  background-color: gray;
- transition: 0,5s;
 }
 
 * {box-sizing: border-box;}
